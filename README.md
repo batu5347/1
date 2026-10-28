@@ -142,3 +142,12 @@ vorhandenen Headless-Chrome angeben: `REMOTION_BROWSER=/pfad/zu/chrome-headless-
 - **Ton** (`scripts/nineeleven/generate_soundtrack.py`): komplett synthetisch – Stadt-Atmo, Taxi-Vorbeifahrt,
   Hupen, Klavier-Motiv, Abbruch der Musik vor dem Einschlag, tiefe Impulse, Stimmengewirr, Sirenen,
   Einsturz-Grollen, gedämpfte Stille, Ducking unter der Stimme, Mix auf −14 LUFS.
+
+## Status dieser Version
+
+- Gerendert und geprüft: 1080 × 1920, H.264 High + AAC 48 kHz Stereo, **1830 Videoframes = 61,0 s**, keine
+  schwarzen Abschnitte, −14,3 LUFS, Spitze −1,5 dBFS (`bash scripts/qc.sh out/nineeleven_pov_11_september_2001.mp4`).
+- **Stimme:** In dieser Umgebung waren keine ElevenLabs-Zugangsdaten gesetzt (und `api.elevenlabs.io` war
+  vom Netzwerk-Proxy gesperrt). Die Tonspur nutzt deshalb ausdrücklich die lokale **Vorschau-Stimme** (Piper
+  „Thorsten“). Für die finale Fassung `ELEVENLABS_API_KEY` und `ELEVENLABS_VOICE_ID` setzen und
+  `npm run voice:911 && npm run audio:911 && npm run render:911` ausführen.
