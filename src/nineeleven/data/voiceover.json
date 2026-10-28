@@ -1,0 +1,1354 @@
+{
+ "engine": "piper",
+ "voice": "VORSCHAU: Piper „Thorsten“ (lokal, CC0) – nicht die finale ElevenLabs-Stimme",
+ "scenes": [
+  {
+   "id": "s1",
+   "title": "Der Hook",
+   "start": 0,
+   "end": 5,
+   "voStart": 0.3,
+   "voEnd": 5.479
+  },
+  {
+   "id": "s2",
+   "title": "Ein ganz normaler Morgen",
+   "start": 5,
+   "end": 13,
+   "voStart": 5.779,
+   "voEnd": 12.675
+  },
+  {
+   "id": "s3",
+   "title": "Der erste Einschlag",
+   "start": 13,
+   "end": 21,
+   "voStart": 13.3,
+   "voEnd": 19.487
+  },
+  {
+   "id": "s4",
+   "title": "Die Stadt begreift, was passiert",
+   "start": 21,
+   "end": 30,
+   "voStart": 21.5,
+   "voEnd": 27.144
+  },
+  {
+   "id": "s5",
+   "title": "Der zweite Einschlag",
+   "start": 30,
+   "end": 38,
+   "voStart": 30.3,
+   "voEnd": 38.013
+  },
+  {
+   "id": "s6",
+   "title": "Manhattan im Ausnahmezustand",
+   "start": 38,
+   "end": 47,
+   "voStart": 38.4,
+   "voEnd": 44.576
+  },
+  {
+   "id": "s7",
+   "title": "Der zweite Turm",
+   "start": 47,
+   "end": 55,
+   "voStart": 47.6,
+   "voEnd": 53.422
+  },
+  {
+   "id": "s8",
+   "title": "Das Finale",
+   "start": 55,
+   "end": 61,
+   "voStart": 55.5,
+   "voEnd": 60.448
+  }
+ ],
+ "words": [
+  {
+   "text": "New",
+   "start": 0.353,
+   "end": 0.545,
+   "scene": "s1",
+   "key": true
+  },
+  {
+   "text": "York,",
+   "start": 0.593,
+   "end": 0.849,
+   "scene": "s1",
+   "key": true
+  },
+  {
+   "text": "11. September",
+   "start": 1.281,
+   "end": 2.065,
+   "scene": "s1",
+   "key": true
+  },
+  {
+   "text": "2001.",
+   "start": 2.129,
+   "end": 2.993,
+   "scene": "s1",
+   "key": true
+  },
+  {
+   "text": "In",
+   "start": 3.422,
+   "end": 3.566,
+   "scene": "s1",
+   "key": false
+  },
+  {
+   "text": "wenigen",
+   "start": 3.614,
+   "end": 3.966,
+   "scene": "s1",
+   "key": false
+  },
+  {
+   "text": "Minuten",
+   "start": 3.998,
+   "end": 4.366,
+   "scene": "s1",
+   "key": false
+  },
+  {
+   "text": "wird",
+   "start": 4.398,
+   "end": 4.59,
+   "scene": "s1",
+   "key": false
+  },
+  {
+   "text": "sich",
+   "start": 4.622,
+   "end": 4.718,
+   "scene": "s1",
+   "key": false
+  },
+  {
+   "text": "alles",
+   "start": 4.782,
+   "end": 4.942,
+   "scene": "s1",
+   "key": false
+  },
+  {
+   "text": "verändern.",
+   "start": 4.99,
+   "end": 5.47,
+   "scene": "s1",
+   "key": true
+  },
+  {
+   "text": "Ein",
+   "start": 5.843,
+   "end": 5.987,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "klarer,",
+   "start": 6.035,
+   "end": 6.451,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "sonniger",
+   "start": 6.579,
+   "end": 6.899,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "Dienstagmorgen.",
+   "start": 6.931,
+   "end": 7.667,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "Tausende",
+   "start": 8.074,
+   "end": 8.474,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "Menschen",
+   "start": 8.506,
+   "end": 8.89,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "sind",
+   "start": 8.938,
+   "end": 9.114,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "auf",
+   "start": 9.146,
+   "end": 9.242,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "dem",
+   "start": 9.274,
+   "end": 9.402,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "Weg",
+   "start": 9.434,
+   "end": 9.594,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "zur",
+   "start": 9.626,
+   "end": 9.818,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "Arbeit –",
+   "start": 9.882,
+   "end": 10.17,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "viele",
+   "start": 10.298,
+   "end": 10.538,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "von",
+   "start": 10.57,
+   "end": 10.698,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "ihnen",
+   "start": 10.81,
+   "end": 11.018,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "in",
+   "start": 11.05,
+   "end": 11.13,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "die",
+   "start": 11.162,
+   "end": 11.306,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "Türme",
+   "start": 11.354,
+   "end": 11.61,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "des",
+   "start": 11.642,
+   "end": 11.77,
+   "scene": "s2",
+   "key": false
+  },
+  {
+   "text": "World",
+   "start": 11.818,
+   "end": 12.058,
+   "scene": "s2",
+   "key": true
+  },
+  {
+   "text": "Trade",
+   "start": 12.09,
+   "end": 12.298,
+   "scene": "s2",
+   "key": true
+  },
+  {
+   "text": "Centers.",
+   "start": 12.33,
+   "end": 12.65,
+   "scene": "s2",
+   "key": true
+  },
+  {
+   "text": "Um",
+   "start": 13.355,
+   "end": 13.483,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "8:46 Uhr",
+   "start": 13.627,
+   "end": 14.795,
+   "scene": "s3",
+   "key": true
+  },
+  {
+   "text": "fliegt",
+   "start": 14.843,
+   "end": 15.083,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "ein",
+   "start": 15.147,
+   "end": 15.275,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "entführtes",
+   "start": 15.323,
+   "end": 15.803,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "Passagierflugzeug",
+   "start": 15.851,
+   "end": 17.035,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "in",
+   "start": 17.083,
+   "end": 17.163,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "den",
+   "start": 17.211,
+   "end": 17.339,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "Nordturm.",
+   "start": 17.371,
+   "end": 17.723,
+   "scene": "s3",
+   "key": true
+  },
+  {
+   "text": "American",
+   "start": 18.17,
+   "end": 18.57,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "Airlines",
+   "start": 18.634,
+   "end": 18.906,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "Flug",
+   "start": 18.938,
+   "end": 19.178,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "11.",
+   "start": 19.274,
+   "end": 19.45,
+   "scene": "s3",
+   "key": false
+  },
+  {
+   "text": "Auf",
+   "start": 21.55,
+   "end": 21.694,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "den",
+   "start": 21.726,
+   "end": 21.886,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "Straßen",
+   "start": 21.918,
+   "end": 22.318,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "bleiben",
+   "start": 22.35,
+   "end": 22.622,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "Menschen",
+   "start": 22.654,
+   "end": 22.99,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "stehen",
+   "start": 23.038,
+   "end": 23.31,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "und",
+   "start": 23.342,
+   "end": 23.438,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "blicken",
+   "start": 23.502,
+   "end": 23.758,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "nach",
+   "start": 23.79,
+   "end": 23.95,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "oben.",
+   "start": 24.03,
+   "end": 24.206,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "Viele",
+   "start": 24.636,
+   "end": 24.924,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "wissen",
+   "start": 24.972,
+   "end": 25.212,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "zunächst",
+   "start": 25.244,
+   "end": 25.612,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "nicht,",
+   "start": 25.66,
+   "end": 25.964,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "was",
+   "start": 26.172,
+   "end": 26.316,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "genau",
+   "start": 26.364,
+   "end": 26.588,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "geschehen",
+   "start": 26.62,
+   "end": 26.988,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "ist.",
+   "start": 27.036,
+   "end": 27.144,
+   "scene": "s4",
+   "key": false
+  },
+  {
+   "text": "Um",
+   "start": 30.347,
+   "end": 30.459,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "9:03 Uhr",
+   "start": 30.523,
+   "end": 31.307,
+   "scene": "s5",
+   "key": true
+  },
+  {
+   "text": "trifft",
+   "start": 31.339,
+   "end": 31.579,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "ein",
+   "start": 31.643,
+   "end": 31.787,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "zweites",
+   "start": 31.819,
+   "end": 32.171,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "Flugzeug",
+   "start": 32.203,
+   "end": 32.651,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "den",
+   "start": 32.699,
+   "end": 32.827,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "Südturm.",
+   "start": 32.859,
+   "end": 33.195,
+   "scene": "s5",
+   "key": true
+  },
+  {
+   "text": "United",
+   "start": 33.591,
+   "end": 34.103,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "Airlines",
+   "start": 34.199,
+   "end": 34.551,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "Flug",
+   "start": 34.599,
+   "end": 34.807,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "175.",
+   "start": 34.839,
+   "end": 35.815,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "Jetzt",
+   "start": 36.186,
+   "end": 36.442,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "ist",
+   "start": 36.474,
+   "end": 36.602,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "klar:",
+   "start": 36.634,
+   "end": 36.97,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "Das",
+   "start": 37.13,
+   "end": 37.258,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "ist",
+   "start": 37.29,
+   "end": 37.386,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "ein",
+   "start": 37.434,
+   "end": 37.546,
+   "scene": "s5",
+   "key": false
+  },
+  {
+   "text": "Anschlag.",
+   "start": 37.626,
+   "end": 38.01,
+   "scene": "s5",
+   "key": true
+  },
+  {
+   "text": "Rettungskräfte",
+   "start": 38.447,
+   "end": 39.183,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "eilen",
+   "start": 39.295,
+   "end": 39.455,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "zu",
+   "start": 39.487,
+   "end": 39.615,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "den",
+   "start": 39.647,
+   "end": 39.775,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "Türmen,",
+   "start": 39.807,
+   "end": 40.159,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "Tausende",
+   "start": 40.303,
+   "end": 40.687,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "verlassen",
+   "start": 40.735,
+   "end": 41.087,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "das",
+   "start": 41.119,
+   "end": 41.263,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "Viertel.",
+   "start": 41.295,
+   "end": 41.631,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "Um",
+   "start": 42.01,
+   "end": 42.122,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "9:59 Uhr",
+   "start": 42.186,
+   "end": 43.418,
+   "scene": "s6",
+   "key": true
+  },
+  {
+   "text": "stürzt",
+   "start": 43.466,
+   "end": 43.802,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "der",
+   "start": 43.85,
+   "end": 43.946,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "Südturm",
+   "start": 43.978,
+   "end": 44.282,
+   "scene": "s6",
+   "key": true
+  },
+  {
+   "text": "ein.",
+   "start": 44.394,
+   "end": 44.576,
+   "scene": "s6",
+   "key": false
+  },
+  {
+   "text": "Eine",
+   "start": 47.696,
+   "end": 47.872,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "gewaltige",
+   "start": 47.904,
+   "end": 48.368,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "Staubwolke",
+   "start": 48.4,
+   "end": 49.04,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "zieht",
+   "start": 49.088,
+   "end": 49.296,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "durch",
+   "start": 49.328,
+   "end": 49.456,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "die",
+   "start": 49.488,
+   "end": 49.584,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "Straßen.",
+   "start": 49.616,
+   "end": 50.096,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "Um",
+   "start": 50.511,
+   "end": 50.639,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "10:28 Uhr",
+   "start": 50.687,
+   "end": 51.967,
+   "scene": "s7",
+   "key": true
+  },
+  {
+   "text": "stürzt",
+   "start": 52.031,
+   "end": 52.335,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "auch",
+   "start": 52.399,
+   "end": 52.511,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "der",
+   "start": 52.543,
+   "end": 52.655,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "Nordturm",
+   "start": 52.687,
+   "end": 53.087,
+   "scene": "s7",
+   "key": true
+  },
+  {
+   "text": "ein.",
+   "start": 53.215,
+   "end": 53.391,
+   "scene": "s7",
+   "key": false
+  },
+  {
+   "text": "Fast",
+   "start": 55.577,
+   "end": 55.865,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "3000",
+   "start": 55.913,
+   "end": 56.489,
+   "scene": "s8",
+   "key": true
+  },
+  {
+   "text": "Menschen",
+   "start": 56.521,
+   "end": 56.841,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "verlieren",
+   "start": 56.905,
+   "end": 57.257,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "an",
+   "start": 57.289,
+   "end": 57.353,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "diesem",
+   "start": 57.401,
+   "end": 57.625,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "Tag",
+   "start": 57.657,
+   "end": 57.865,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "ihr",
+   "start": 57.897,
+   "end": 58.025,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "Leben.",
+   "start": 58.057,
+   "end": 58.313,
+   "scene": "s8",
+   "key": true
+  },
+  {
+   "text": "Ein",
+   "start": 58.742,
+   "end": 58.918,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "Tag,",
+   "start": 58.966,
+   "end": 59.302,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "der",
+   "start": 59.382,
+   "end": 59.51,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "die",
+   "start": 59.542,
+   "end": 59.638,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "Welt",
+   "start": 59.67,
+   "end": 59.862,
+   "scene": "s8",
+   "key": false
+  },
+  {
+   "text": "veränderte.",
+   "start": 59.894,
+   "end": 60.448,
+   "scene": "s8",
+   "key": true
+  }
+ ],
+ "cues": [
+  {
+   "scene": "s1",
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "start": 0.273,
+   "end": 3.322,
+   "text": "New York, 11. September 2001."
+  },
+  {
+   "scene": "s1",
+   "words": [
+    4,
+    5,
+    6
+   ],
+   "start": 3.342,
+   "end": 4.298,
+   "text": "In wenigen Minuten"
+  },
+  {
+   "scene": "s1",
+   "words": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "start": 4.318,
+   "end": 5.743,
+   "text": "wird sich alles verändern."
+  },
+  {
+   "scene": "s2",
+   "words": [
+    11,
+    12
+   ],
+   "start": 5.763,
+   "end": 6.479,
+   "text": "Ein klarer,"
+  },
+  {
+   "scene": "s2",
+   "words": [
+    13,
+    14
+   ],
+   "start": 6.499,
+   "end": 7.974,
+   "text": "sonniger Dienstagmorgen."
+  },
+  {
+   "scene": "s2",
+   "words": [
+    15,
+    16,
+    17
+   ],
+   "start": 7.994,
+   "end": 9.046,
+   "text": "Tausende Menschen sind"
+  },
+  {
+   "scene": "s2",
+   "words": [
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "start": 9.066,
+   "end": 10.198,
+   "text": "auf dem Weg zur Arbeit –"
+  },
+  {
+   "scene": "s2",
+   "words": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "start": 10.218,
+   "end": 11.542,
+   "text": "viele von ihnen in die Türme"
+  },
+  {
+   "scene": "s2",
+   "words": [
+    29,
+    30,
+    31,
+    32
+   ],
+   "start": 11.562,
+   "end": 13.255,
+   "text": "des World Trade Centers."
+  },
+  {
+   "scene": "s3",
+   "words": [
+    33,
+    34,
+    35,
+    36,
+    37
+   ],
+   "start": 13.275,
+   "end": 15.751,
+   "text": "Um 8:46 Uhr fliegt ein entführtes"
+  },
+  {
+   "scene": "s3",
+   "words": [
+    38,
+    39,
+    40,
+    41
+   ],
+   "start": 15.771,
+   "end": 18.07,
+   "text": "Passagierflugzeug in den Nordturm."
+  },
+  {
+   "scene": "s3",
+   "words": [
+    42,
+    43,
+    44,
+    45
+   ],
+   "start": 18.09,
+   "end": 20.15,
+   "text": "American Airlines Flug 11."
+  },
+  {
+   "scene": "s4",
+   "words": [
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "start": 21.47,
+   "end": 22.938,
+   "text": "Auf den Straßen bleiben Menschen"
+  },
+  {
+   "scene": "s4",
+   "words": [
+    51,
+    52,
+    53,
+    54,
+    55
+   ],
+   "start": 22.958,
+   "end": 24.536,
+   "text": "stehen und blicken nach oben."
+  },
+  {
+   "scene": "s4",
+   "words": [
+    56,
+    57,
+    58,
+    59
+   ],
+   "start": 24.556,
+   "end": 26.072,
+   "text": "Viele wissen zunächst nicht,"
+  },
+  {
+   "scene": "s4",
+   "words": [
+    60,
+    61,
+    62,
+    63
+   ],
+   "start": 26.092,
+   "end": 27.844,
+   "text": "was genau geschehen ist."
+  },
+  {
+   "scene": "s5",
+   "words": [
+    64,
+    65,
+    66,
+    67,
+    68
+   ],
+   "start": 30.267,
+   "end": 32.103,
+   "text": "Um 9:03 Uhr trifft ein zweites"
+  },
+  {
+   "scene": "s5",
+   "words": [
+    69,
+    70,
+    71
+   ],
+   "start": 32.123,
+   "end": 33.491,
+   "text": "Flugzeug den Südturm."
+  },
+  {
+   "scene": "s5",
+   "words": [
+    72,
+    73,
+    74,
+    75
+   ],
+   "start": 33.511,
+   "end": 36.086,
+   "text": "United Airlines Flug 175."
+  },
+  {
+   "scene": "s5",
+   "words": [
+    76,
+    77,
+    78
+   ],
+   "start": 36.106,
+   "end": 37.03,
+   "text": "Jetzt ist klar:"
+  },
+  {
+   "scene": "s5",
+   "words": [
+    79,
+    80,
+    81,
+    82
+   ],
+   "start": 37.05,
+   "end": 38.347,
+   "text": "Das ist ein Anschlag."
+  },
+  {
+   "scene": "s6",
+   "words": [
+    83
+   ],
+   "start": 38.367,
+   "end": 39.195,
+   "text": "Rettungskräfte"
+  },
+  {
+   "scene": "s6",
+   "words": [
+    84,
+    85,
+    86,
+    87
+   ],
+   "start": 39.215,
+   "end": 40.203,
+   "text": "eilen zu den Türmen,"
+  },
+  {
+   "scene": "s6",
+   "words": [
+    88,
+    89,
+    90,
+    91
+   ],
+   "start": 40.223,
+   "end": 41.91,
+   "text": "Tausende verlassen das Viertel."
+  },
+  {
+   "scene": "s6",
+   "words": [
+    92,
+    93,
+    94
+   ],
+   "start": 41.93,
+   "end": 43.75,
+   "text": "Um 9:59 Uhr stürzt"
+  },
+  {
+   "scene": "s6",
+   "words": [
+    95,
+    96,
+    97
+   ],
+   "start": 43.77,
+   "end": 45.276,
+   "text": "der Südturm ein."
+  },
+  {
+   "scene": "s7",
+   "words": [
+    98,
+    99,
+    100
+   ],
+   "start": 47.616,
+   "end": 48.988,
+   "text": "Eine gewaltige Staubwolke"
+  },
+  {
+   "scene": "s7",
+   "words": [
+    101,
+    102,
+    103,
+    104
+   ],
+   "start": 49.008,
+   "end": 50.411,
+   "text": "zieht durch die Straßen."
+  },
+  {
+   "scene": "s7",
+   "words": [
+    105,
+    106,
+    107
+   ],
+   "start": 50.431,
+   "end": 52.299,
+   "text": "Um 10:28 Uhr stürzt"
+  },
+  {
+   "scene": "s7",
+   "words": [
+    108,
+    109,
+    110,
+    111
+   ],
+   "start": 52.319,
+   "end": 54.091,
+   "text": "auch der Nordturm ein."
+  },
+  {
+   "scene": "s8",
+   "words": [
+    112,
+    113,
+    114,
+    115
+   ],
+   "start": 55.497,
+   "end": 57.189,
+   "text": "Fast 3000 Menschen verlieren"
+  },
+  {
+   "scene": "s8",
+   "words": [
+    116,
+    117,
+    118,
+    119,
+    120
+   ],
+   "start": 57.209,
+   "end": 58.642,
+   "text": "an diesem Tag ihr Leben."
+  },
+  {
+   "scene": "s8",
+   "words": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126
+   ],
+   "start": 58.662,
+   "end": 60.98,
+   "text": "Ein Tag, der die Welt veränderte."
+  }
+ ]
+}

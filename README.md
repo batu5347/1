@@ -80,3 +80,65 @@ SVG-Szenen (`Street.tsx`, `Interior.tsx`, `Facades.tsx`), die Karte nutzt Natura
 
 **TikTok-Sicherheitsabstände.** Wichtige Inhalte bleiben zwischen ca. 250 px oben und 430 px unten sowie
 links von der Button-Leiste (`SAFE` in `src/theme.ts`).
+
+---
+
+# POV: Du bist in New York am 11. September 2001 (Remotion + Three.js)
+
+Zweite Komposition im selben Projekt: `NineEleven` – vertikal 1080 × 1920, 30 fps, **exakt 61 s = 1830 Frames**.
+Fiktionalisierte, stilisierte POV-Rekonstruktion im Low-Poly-3D-Stil (React Three Fiber via `@remotion/three`).
+
+**Fertiges Video:** [`out/nineeleven_pov_11_september_2001.mp4`](out/nineeleven_pov_11_september_2001.mp4)
+
+| Datei | Inhalt |
+|---|---|
+| `deliverables/nineeleven/sprechertext.txt` | Sprechertext je Szene mit gemessenen Zeiten |
+| `deliverables/nineeleven/untertitel.srt` / `.vtt` | Untertitel (wortgenau aus der Aufnahme) |
+| `deliverables/nineeleven/kontaktbogen.jpg` | Kontaktbogen der 8 Szenen |
+| `deliverables/nineeleven/ELEVENLABS_SETUP.md` | ElevenLabs-Einrichtung + Umgebungsvariablen |
+| `src/nineeleven/` | Komposition, Kamera, Zeitplan, 3D-Welt (`world/`), Text-Ebene (`components/`) |
+| `scripts/nineeleven/` | Stimme, Soundtrack, Vorschau/Kontaktbogen |
+
+## Historische Zeitpunkte (im Video gekennzeichnet)
+
+| Uhrzeit | Ereignis | Video |
+|---|---|---|
+| 08:46 | American Airlines Flug 11 trifft den Nordturm (Nordfassade, Etagen 93–99) | Szene 3 |
+| 09:03 | United Airlines Flug 175 trifft den Südturm (Südfassade, Etagen 77–85) | Szene 5 |
+| 09:59 | Einsturz des Südturms | Szene 6 |
+| 10:28 | Einsturz des Nordturms | Szene 7 |
+
+Die Einschläge/Einstürze sind an die gesprochenen Wörter gekoppelt (`src/nineeleven/timeline.ts`), die
+eingeblendete Uhr läuft stückweise linear zwischen diesen Zeitpunkten. Keine Verletzten, keine Opfer, keine
+Darstellung von Menschen in den Gebäuden; keine erfundenen Zitate oder Augenzeugenberichte. Der Hinweis
+„Fiktionalisierte POV-Rekonstruktion“ wird zu Beginn eingeblendet, eine kleine Kennzeichnung bleibt stehen.
+
+## Rendern
+
+```bash
+npm install
+pip install numpy scipy            # Soundtrack
+# Stimme: ElevenLabs (siehe deliverables/nineeleven/ELEVENLABS_SETUP.md)
+npm run voice:911                  # oder ausdrücklich: npm run voice:911:preview (Piper-Vorschau)
+npm run audio:911
+npm run render:911                 # -> out/nineeleven_pov_11_september_2001.mp4
+npm run preview:911                # Kontaktbogen -> deliverables/nineeleven/kontaktbogen.jpg
+```
+
+Ohne GPU rendert Chrome per SwiftShader (`--gl=swangle`, ca. 3–8 s pro Frame). Ohne Internet einen
+vorhandenen Headless-Chrome angeben: `REMOTION_BROWSER=/pfad/zu/chrome-headless-shell npm run render:911`.
+
+## Aufbau
+
+- **Welt** (`src/nineeleven/world/`): Twin Towers mit Fassadentextur (59 Stützen je Seite, Technikgeschosse,
+  Lobby-Bögen, Antenne), West Broadway in Tribeca mit Querstraßen, Gehwegen, Ampeln (WALK/DONT WALK),
+  grünen Straßenschildern, Markisen, Feuerleitern, Wassertürmen, Telefonzellen; Lower Manhattan auf gedrehtem
+  Straßenraster, 7 WTC, World Financial Center, Hudson, Jersey City. Alles prozedural (keine externen Modelle).
+- **Figuren/Fahrzeuge**: 300 instanzierte Low-Poly-Menschen (gehen, bleiben stehen, schauen nach oben,
+  verlassen das Viertel), gelbe Taxis, Busse, Löschfahrzeuge und Streifenwagen mit Blinklicht.
+- **Partikel** (`effects.ts`, `Billboards.tsx`): deterministische Rauchfahnen (Wind nach Südosten),
+  Feuerbälle, Staubfront und -wolke der Einstürze, Staubwalze in der Straße, fallendes Papier.
+- **Farbdramaturgie** (`grade.ts`): warmer Morgen → kühler, staubiger, entsättigter Tag.
+- **Ton** (`scripts/nineeleven/generate_soundtrack.py`): komplett synthetisch – Stadt-Atmo, Taxi-Vorbeifahrt,
+  Hupen, Klavier-Motiv, Abbruch der Musik vor dem Einschlag, tiefe Impulse, Stimmengewirr, Sirenen,
+  Einsturz-Grollen, gedämpfte Stille, Ducking unter der Stimme, Mix auf −14 LUFS.

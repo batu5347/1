@@ -1,0 +1,157 @@
+{
+  "fps": 30,
+  "totalFrames": 1830,
+  "voice": {
+    "description": "Deutsche männliche Erzählstimme – tief, ruhig, dokumentarisch",
+    "elevenlabsModel": "eleven_multilingual_v2",
+    "elevenlabsSettings": {
+      "stability": 0.62,
+      "similarity_boost": 0.8,
+      "style": 0.18,
+      "use_speaker_boost": true,
+      "speed": 0.96
+    }
+  },
+  "notes": "Tokens mit '_' werden in den Untertiteln mit geschütztem Leerzeichen gezeigt (z. B. 8:46_Uhr). 'tts' gilt für alle Stimmen, 'piperTts' zusätzlich nur für die lokale Piper-Stimme (englische Namen phonetisch).",
+  "tts": {
+    "2001.": "zweitausendeins.",
+    "8:46_Uhr": "acht Uhr sechsundvierzig",
+    "9:03_Uhr": "neun Uhr drei",
+    "9:59_Uhr": "neun Uhr neunundfünfzig",
+    "10:28_Uhr": "zehn Uhr achtundzwanzig",
+    "3000": "dreitausend",
+    "11._September": "elfter September",
+    "11.": "elf.",
+    "175.": "hundertfünfundsiebzig."
+  },
+  "piperTts": {
+    "World": "Wörld",
+    "Trade": "Tred",
+    "Centers.": "Senters."
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Der Hook",
+      "start": 0,
+      "end": 5,
+      "lead": 0.15,
+      "lengthScale": 0.95,
+      "maxSpill": 0.6,
+      "sentences": [
+        "New York, 11._September 2001.",
+        "In wenigen Minuten wird sich alles verändern."
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Ein ganz normaler Morgen",
+      "start": 5,
+      "end": 13,
+      "lead": 0.6,
+      "lengthScale": 1.0,
+      "sentences": [
+        "Ein klarer, sonniger Dienstagmorgen.",
+        "Tausende Menschen sind auf dem Weg zur Arbeit – viele von ihnen in die Türme des World Trade Centers."
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Der erste Einschlag",
+      "start": 13,
+      "end": 21,
+      "lead": 0.3,
+      "lengthScale": 1.0,
+      "sentences": [
+        "Um 8:46_Uhr fliegt ein entführtes Passagierflugzeug in den Nordturm.",
+        "American Airlines Flug 11."
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Die Stadt begreift, was passiert",
+      "start": 21,
+      "end": 30,
+      "lead": 0.5,
+      "lengthScale": 1.0,
+      "sentences": [
+        "Auf den Straßen bleiben Menschen stehen und blicken nach oben.",
+        "Viele wissen zunächst nicht, was genau geschehen ist."
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Der zweite Einschlag",
+      "start": 30,
+      "end": 38,
+      "lead": 0.3,
+      "lengthScale": 0.98,
+      "sentences": [
+        "Um 9:03_Uhr trifft ein zweites Flugzeug den Südturm.",
+        "United Airlines Flug 175.",
+        "Jetzt ist klar: Das ist ein Anschlag."
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Manhattan im Ausnahmezustand",
+      "start": 38,
+      "end": 47,
+      "lead": 0.4,
+      "lengthScale": 0.98,
+      "sentences": [
+        "Rettungskräfte eilen zu den Türmen, Tausende verlassen das Viertel.",
+        "Um 9:59_Uhr stürzt der Südturm ein."
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Der zweite Turm",
+      "start": 47,
+      "end": 55,
+      "lead": 0.6,
+      "lengthScale": 1.0,
+      "sentences": [
+        "Eine gewaltige Staubwolke zieht durch die Straßen.",
+        "Um 10:28_Uhr stürzt auch der Nordturm ein."
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Das Finale",
+      "start": 55,
+      "end": 61,
+      "lead": 0.5,
+      "lengthScale": 1.04,
+      "maxSpill": 0,
+      "sentences": [
+        "Fast 3000 Menschen verlieren an diesem Tag ihr Leben.",
+        "Ein Tag, der die Welt veränderte."
+      ]
+    }
+  ],
+  "sentenceGap": 0.32,
+  "sceneGap": 0.3,
+  "keywords": [
+    "New",
+    "York,",
+    "11._September",
+    "2001.",
+    "verändern.",
+    "8:46_Uhr",
+    "Nordturm.",
+    "9:03_Uhr",
+    "Südturm.",
+    "Anschlag.",
+    "9:59_Uhr",
+    "Südturm",
+    "10:28_Uhr",
+    "Nordturm",
+    "3000",
+    "Leben.",
+    "veränderte.",
+    "World",
+    "Trade",
+    "Centers."
+  ]
+}
