@@ -1,0 +1,64 @@
+VOICE-OVER-SKRIPT – „Was wäre, wenn Deutschland 24 Stunden keinen Strom hätte?“
+Format: TikTok, 9:16, 61 Sekunden (1830 Frames @ 30 fps)
+Stimme: Thorsten (Piper TTS, offline, Lizenz CC0), tief/ruhig, leicht tiefer gepitcht und klanglich bearbeitet
+
+Hinweis: Die Zeitangaben „gesprochen“ stammen aus der tatsächlich erzeugten Aufnahme
+(public/audio/voiceover.wav, wortgenaue Phonem-Alignments von Piper).
+
+SZENE 1 – DER HOOK  [Bild 00.00–04.00 s | gesprochen 0.25–4.40 s]
+Sprechtempo: 14 Wörter in 4.1 s = 3.38 Wörter/s (Piper length_scale 0.86)
+
+  Was wäre, wenn Deutschland von jetzt auf gleich 24 Stunden keinen Strom mehr hätte?
+
+SZENE 2 – DIE ERSTEN 10 MINUTEN  [Bild 04.00–12.00 s | gesprochen 4.65–11.29 s]
+Sprechtempo: 19 Wörter in 6.6 s = 2.86 Wörter/s (Piper length_scale 0.94)
+
+  Nach wenigen Minuten stehen Ampeln still, Bahnen bleiben liegen – und plötzlich merken Millionen Menschen: Nichts funktioniert mehr wie gewohnt.
+
+SZENE 3 – DIE ERSTE STUNDE  [Bild 12.00–21.00 s | gesprochen 12.30–21.10 s]
+Sprechtempo: 24 Wörter in 8.8 s = 2.73 Wörter/s (Piper length_scale 0.87)
+
+  Schon nach einer Stunde geraten Alltag und Versorgung unter Druck.
+  Kassen, Tankstellen und viele Kommunikationssysteme brauchen Strom – und nicht überall gibt es eine Alternative.
+
+SZENE 4 – NACH 6 STUNDEN  [Bild 21.00–31.00 s | gesprochen 21.35–31.28 s]
+Sprechtempo: 25 Wörter in 9.9 s = 2.52 Wörter/s (Piper length_scale 0.87)
+
+  Nach sechs Stunden wird es für viele Menschen ernst.
+  Wohnungen bleiben kalt oder dunkel, manche Mobilfunkstandorte können ausfallen.
+  Krankenhäuser müssen kritische Systeme mit Notstrom absichern.
+
+SZENE 5 – NACH 12 STUNDEN  [Bild 31.00–41.00 s | gesprochen 31.53–41.31 s]
+Sprechtempo: 26 Wörter in 9.8 s = 2.66 Wörter/s (Piper length_scale 0.86)
+
+  Nach zwölf Stunden werden die Unsicherheit und die logistischen Probleme größer.
+  Wer kein Wasser, keine geladenen Akkus oder wichtige Medikamente vorbereitet hat, könnte jetzt Schwierigkeiten bekommen.
+
+SZENE 6 – NACH 24 STUNDEN  [Bild 41.00–53.00 s | gesprochen 41.56–53.70 s]
+Sprechtempo: 35 Wörter in 12.1 s = 2.88 Wörter/s (Piper length_scale 0.85)
+
+  Nach 24 Stunden wäre Deutschland nicht automatisch im Chaos.
+  Aber Verkehr, Kommunikation und Versorgung könnten massiv beeinträchtigt sein.
+  Wie schwer die Folgen wären, hinge davon ab, wo der Strom fehlt – und wie schnell er zurückkommt.
+
+SZENE 7 – DAS FINALE  [Bild 53.00–61.00 s | gesprochen 53.95–59.87 s]
+Sprechtempo: 17 Wörter in 5.9 s = 2.87 Wörter/s (Piper length_scale 0.92)
+
+  Und jetzt die Frage: Hättest du genug Wasser, Licht und einen geladenen Akku, um 24 Stunden durchzuhalten?
+
+Gesamt: 160 Wörter in ca. 59,6 s Sprechzeit (Ø 2.68 Wörter/s).
+Bewertung: Natürliches deutsches Sprechtempo liegt bei ca. 2,0–3,0 Wörtern/s; dokumentarische
+Kurzformate auf TikTok eher im oberen Bereich. Szenen 2–7 liegen im natürlichen Bereich; der Hook
+(Szene 1) ist bewusst etwas zügiger gesprochen, damit die Frage vor dem ersten Schnitt steht
+(„vierundzwanzig“ zählt dabei als ein Wort, ist aber vier Silben lang).
+
+Kürzungen gegenüber dem Briefing (damit der Text ohne Hetzen in die Zeitfenster passt):
+  Szene 3: „… sind auf Strom angewiesen. Und nicht überall gibt es eine funktionierende Alternative.“
+        → „… brauchen Strom – und nicht überall gibt es eine Alternative.“
+  Szene 6: „… im Chaos versunken.“ → „… im Chaos.“; „Arbeitsabläufe“ gestrichen;
+        „… welche Regionen betroffen sind und wie schnell die Stromversorgung zurückkehrt.“
+        → „… wo der Strom fehlt – und wie schnell er zurückkommt.“
+  Ungekürzt hätte Szene 6 bei natürlichem Tempo ca. 17 s statt der verfügbaren 12 s benötigt.
+
+Schnitt-Hinweis: Der letzte Halbsatz von Szene 6 („… und wie schnell er zurückkommt.“) läuft als
+bewusster J-Cut ca. 0,7 s in Szene 7 hinein – genau dort, wo auf der Karte die Lichter zurückkehren.

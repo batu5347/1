@@ -1,0 +1,32 @@
+{
+  "name": "deutschland-24h-ohne-strom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TikTok-Kurzdoku (Remotion): Was wäre, wenn Deutschland 24 Stunden keinen Strom hätte?",
+  "scripts": {
+    "studio": "remotion studio",
+    "build:map": "node scripts/build-map.mjs",
+    "build:audio": "python3 scripts/generate_voiceover.py && python3 scripts/generate_soundtrack.py",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render Blackout out/deutschland_24h_ohne_strom.mp4 --codec=h264 --crf=18 --audio-codec=aac --audio-bitrate=192k"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/oswald": "5.3.0",
+    "@remotion/cli": "4.0.539",
+    "@remotion/fonts": "4.0.539",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "@types/react": "18.3.31",
+    "d3-geo": "3.1.1",
+    "topojson-client": "3.1.0",
+    "typescript": "5.9.3",
+    "world-atlas": "2.0.2"
+  }
+}

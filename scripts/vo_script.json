@@ -1,0 +1,127 @@
+{
+  "fps": 30,
+  "totalFrames": 1830,
+  "voice": "Thorsten (Piper TTS, CC0) – de_DE",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Der Hook",
+      "start": 0,
+      "end": 4,
+      "lead": 0.12,
+      "sentences": [
+        "Was wäre, wenn Deutschland von jetzt auf gleich 24 Stunden keinen Strom mehr hätte?"
+      ],
+      "lengthScale": 0.86
+    },
+    {
+      "id": "s2",
+      "title": "Die ersten 10 Minuten",
+      "start": 4,
+      "end": 12,
+      "lead": 0.35,
+      "sentences": [
+        "Nach wenigen Minuten stehen Ampeln still, Bahnen bleiben liegen – und plötzlich merken Millionen Menschen: Nichts funktioniert mehr wie gewohnt."
+      ],
+      "lengthScale": 0.94
+    },
+    {
+      "id": "s3",
+      "title": "Die erste Stunde",
+      "start": 12,
+      "end": 21,
+      "lead": 0.3,
+      "sentences": [
+        "Schon nach einer Stunde geraten Alltag und Versorgung unter Druck.",
+        "Kassen, Tankstellen und viele Kommunikationssysteme brauchen Strom – und nicht überall gibt es eine Alternative."
+      ],
+      "lengthScale": 0.87
+    },
+    {
+      "id": "s4",
+      "title": "Nach 6 Stunden",
+      "start": 21,
+      "end": 31,
+      "lead": 0.35,
+      "sentences": [
+        "Nach sechs Stunden wird es für viele Menschen ernst.",
+        "Wohnungen bleiben kalt oder dunkel, manche Mobilfunkstandorte können ausfallen.",
+        "Krankenhäuser müssen kritische Systeme mit Notstrom absichern."
+      ],
+      "lengthScale": 0.87
+    },
+    {
+      "id": "s5",
+      "title": "Nach 12 Stunden",
+      "start": 31,
+      "end": 41,
+      "lead": 0.35,
+      "sentences": [
+        "Nach zwölf Stunden werden die Unsicherheit und die logistischen Probleme größer.",
+        "Wer kein Wasser, keine geladenen Akkus oder wichtige Medikamente vorbereitet hat, könnte jetzt Schwierigkeiten bekommen."
+      ],
+      "lengthScale": 0.86
+    },
+    {
+      "id": "s6",
+      "title": "Nach 24 Stunden",
+      "start": 41,
+      "end": 53,
+      "lead": 0.35,
+      "sentences": [
+        "Nach 24 Stunden wäre Deutschland nicht automatisch im Chaos.",
+        "Aber Verkehr, Kommunikation und Versorgung könnten massiv beeinträchtigt sein.",
+        "Wie schwer die Folgen wären, hinge davon ab, wo der Strom fehlt – und wie schnell er zurückkommt."
+      ],
+      "lengthScale": 0.85,
+      "maxSpill": 0.8
+    },
+    {
+      "id": "s7",
+      "title": "Das Finale",
+      "start": 53,
+      "end": 61,
+      "lead": 0.4,
+      "sentences": [
+        "Und jetzt die Frage: Hättest du genug Wasser, Licht und einen geladenen Akku, um 24 Stunden durchzuhalten?"
+      ],
+      "lengthScale": 0.92
+    }
+  ],
+  "sentenceGap": 0.22,
+  "sceneGap": 0.25,
+  "keywords": [
+    "Deutschland",
+    "24",
+    "Stunden",
+    "Strom",
+    "Ampeln",
+    "Bahnen",
+    "Millionen",
+    "Nichts",
+    "Kassen",
+    "Tankstellen",
+    "Kommunikationssysteme",
+    "Alternative",
+    "ernst",
+    "kalt",
+    "dunkel",
+    "Mobilfunkstandorte",
+    "Notstrom",
+    "Krankenhäuser",
+    "Unsicherheit",
+    "Wasser",
+    "Akkus",
+    "Medikamente",
+    "Chaos",
+    "Verkehr,",
+    "Kommunikation",
+    "Versorgung",
+    "massiv",
+    "Licht",
+    "Akku",
+    "durchzuhalten?",
+    "zurückkommt.",
+    "Regionen"
+  ]
+}

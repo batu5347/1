@@ -1,0 +1,6 @@
+node_modules/
+build/
+voices/
+.DS_Store
+out/*.png
+out/frames/
