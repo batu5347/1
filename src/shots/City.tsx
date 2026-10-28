@@ -212,6 +212,8 @@ export type CityMode = {
   islands?: boolean;
   /** Kerzen-/Taschenlampenlicht in Fenstern */
   candles?: number;
+  /** Helligkeit des Mondlichts auf den Dächern */
+  moon?: number;
   /** Lichtglocke am Horizont (0..1) */
   skyGlow: (frame: number) => number;
   /** Bewegungsunschärfe-Gefühl beim schnellen Zoom (0..1) */
@@ -251,7 +253,7 @@ export const CityCanvas: React.FC<{ mode: CityMode }> = ({ mode }) => {
 
     // Mondbeschienene Dächer (sichtbar, wenn es dunkel ist)
     const avgLight = dl.reduce((a, b) => a + b, 0) / 26;
-    const moon = 0.5 + 0.45 * (1 - avgLight);
+    const moon = (0.5 + 0.45 * (1 - avgLight)) * (mode.moon ?? 1);
     for (const b of blocks) {
       const p = [
         project(cam, b.x0, 0, b.z0),
@@ -341,7 +343,7 @@ export const CityCanvas: React.FC<{ mode: CityMode }> = ({ mode }) => {
     // Einsatzfahrzeuge mit Blaulicht
     if (mode.emergency) {
       const blue = sprite([60, 120, 255], 0.2);
-      for (let e = 0; e < 7; e++) {
+      for (let e = 0; e < 14; e++) {
         const ang = (Math.floor(random(`em${e}`) * 6) / 6) * Math.PI * 2 + 0.3;
         const r = ((random(`emr${e}`) * 7000 + frame * (9 + e)) % 7500) + 300;
         const x = center.x + Math.cos(ang) * r;
@@ -349,7 +351,7 @@ export const CityCanvas: React.FC<{ mode: CityMode }> = ({ mode }) => {
         const q = project(cam, x, 2, z);
         if (q.zc < 15) continue;
         const on = (frame + e * 3) % 8 < 4 ? 1 : 0.25;
-        const s = Math.min(90, Math.max(5, (55 * cam.f) / q.zc)) * on;
+        const s = Math.min(110, Math.max(9, (80 * cam.f) / q.zc)) * on;
         g.globalAlpha = 0.95;
         g.drawImage(blue, q.sx - s, q.sy - s, s * 2, s * 2);
       }
@@ -361,11 +363,11 @@ export const CityCanvas: React.FC<{ mode: CityMode }> = ({ mode }) => {
       for (let h = 0; h < 6; h++) {
         const hx = (random(`hx${h}`) - 0.5) * 5000;
         const hz = 1200 + random(`hz${h}`) * 7500;
-        for (let k = 0; k < 26; k++) {
+        for (let k = 0; k < 44; k++) {
           const q = project(cam, hx + random(`hk${h}${k}`) * 90, random(`hy${h}${k}`) * 40, hz + random(`hl${h}${k}`) * 90);
           if (q.zc < 15) continue;
-          const s = Math.min(40, Math.max(1.6, (8 * cam.f) / q.zc));
-          g.globalAlpha = 0.85;
+          const s = Math.min(40, Math.max(2.4, (12 * cam.f) / q.zc));
+          g.globalAlpha = 0.95;
           g.drawImage(white, q.sx - s, q.sy - s, s * 2, s * 2);
         }
       }
@@ -479,11 +481,12 @@ export const wideMode = (dur: number): CityMode => ({
     return { x: 300 - p * 500, y: 1500 - p * 250, z: -2600 + p * 900, pitch: 0.42, yaw: 0.05 - p * 0.08, f: 1500 };
   },
   district: () => 0,
-  traffic: 0.12,
+  moon: 1.7,
+  traffic: 0.25,
   emergency: true,
   islands: true,
-  candles: 0.05,
-  skyGlow: () => 0.04,
+  candles: 0.09,
+  skyGlow: () => 0.08,
 });
 
 /** Strom kehrt zurück: einzelne Bezirke gehen wieder an. */
@@ -500,7 +503,8 @@ export const returnMode = (dur: number, relightAt: number): CityMode => ({
     if (k > 8) return 1;
     return random(`rk${d}-${k}`) > 0.5 ? 0.7 : 0.05;
   },
-  traffic: 0.15,
+  moon: 1.5,
+  traffic: 0.2,
   emergency: true,
   islands: true,
   candles: 0.05,

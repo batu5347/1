@@ -302,9 +302,9 @@ export const Family: React.FC<ShotProps> = ({ dur }) => {
           </radialGradient>
         </defs>
       </Stage>
-      <Callout x={110} y={1000} text="WASSER" from={water} color="#7fb6ff" />
-      <Callout x={640} y={1060} text="GELADENE AKKUS" from={akku} color={C.green} />
-      <Callout x={980} y={1110} text="MEDIKAMENTE" from={meds} color="#ff8a80" align="right" />
+      <Callout x={110} y={970} text="WASSER" from={water} color="#7fb6ff" />
+      <Callout x={600} y={1050} text="GELADENE AKKUS" from={akku} color={C.green} />
+      <Callout x={980} y={1140} text="MEDIKAMENTE" from={meds} color="#ff8a80" align="right" />
     </CamMove>
   );
 };

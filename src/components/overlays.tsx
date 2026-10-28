@@ -88,12 +88,16 @@ export const Subtitles: React.FC = () => {
           textAlign: "center",
           color: C.text,
           maxWidth: 820,
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          columnGap: "0.34em",
           textShadow: "0 3px 0 rgba(0,0,0,0.85), 0 0 22px rgba(0,0,0,0.95), 0 0 6px rgba(0,0,0,0.9)",
           WebkitTextStroke: "1.5px rgba(0,0,0,0.55)",
           paintOrder: "stroke fill",
         }}
       >
-        {cue.words.map((wi, i) => {
+        {cue.words.map((wi) => {
           const w = WORDS[wi];
           const active = t >= w.start - 0.03 && t < w.end + 0.05;
           const spoken = t >= w.start - 0.03;
@@ -102,10 +106,9 @@ export const Subtitles: React.FC = () => {
               key={wi}
               style={{
                 display: "inline-block",
-                marginRight: i < cue.words.length - 1 ? "0.32em" : 0,
                 color: w.key ? C.amber : C.text,
                 opacity: spoken ? 1 : 0.78,
-                transform: `scale(${active ? 1.07 : 1})`,
+                transform: `scale(${active ? 1.05 : 1})`,
               }}
             >
               {w.text}

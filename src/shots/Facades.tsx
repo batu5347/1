@@ -43,7 +43,7 @@ export const Office: React.FC<ShotProps> = ({ dur }) => {
     <CamMove frame={f} dur={dur} z0={1.0} z1={1.08} originY={80}>
       <Stage>
         <NightSky top="#02040a" bottom="#0d1830" seed="of" stars={70} />
-        <polygon points="280,200 800,200 1060,1800 20,1800" fill="#070b12" />
+        <polygon points="280,200 800,200 1060,1800 20,1800" fill="#070b12" stroke="#3a4f72" strokeWidth={4} />
         {cells}
         <Glow x={540} y={1000} r={900} g="gCool" o={lit * 0.35} sx={0.8} />
         {/* Notausgangsleuchten bleiben */}
@@ -204,7 +204,7 @@ export const Hospital: React.FC<ShotProps> = ({ dur }) => {
           <Glow x={-150} y={-160} r={220} g="gBlue" o={flash} />
           <Glow x={60} y={-160} r={220} g="gBlue" o={1 - flash} />
         </g>
-        <Person x={620} y={1640} h={360} pose="stand" rim="#7fb6ff" />
+        <Person x={930} y={1660} h={360} pose="stand" rim="#7fb6ff" />
         <rect x={0} y={1910} width={1080} height={200} fill="#0a0e14" />
         </g>
       </Stage>
